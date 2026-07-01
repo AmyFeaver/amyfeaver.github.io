@@ -1,10 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jane Smith | Academic Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #143d6b;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background: #0f2f52;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+
+        nav a:hover {
+            background: #1b5a94;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #143d6b;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e6e6e6;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+        }
+
+        a {
+            color: #1b5a94;
+        }
+
+        @media (max-width: 700px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+
+<header>
+    <h1>Dr. Jane Smith</h1>
+    <p>Associate Professor of Mathematics</p>
+    <p>University Name</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+<section id="about">
+    <h2>About</h2>
+
+    <p>
+        Welcome to my academic portfolio. I am an Associate Professor in the
+        Department of Mathematics with research interests in algebraic number
+        theory, cryptography, and lattice-based mathematics. I enjoy teaching,
+        mentoring students, and collaborating with researchers worldwide.
+    </p>
+</section>
+
+<section id="research">
+    <h2>Research Interests</h2>
+
+    <ul>
+        <li>Algebraic Number Theory</li>
+        <li>Lattice-Based Cryptography</li>
+        <li>Ideal Lattices</li>
+        <li>Post-Quantum Cryptography</li>
+        <li>Computational Mathematics</li>
+    </ul>
+</section>
+
+<section id="publications">
+    <h2>Selected Publications</h2>
+
+    <ul>
+        <li>Author A, Author B. "Title of Paper." Journal, 2025.</li>
+        <li>Author A. "Another Publication." Conference Proceedings, 2024.</li>
+        <li>Author A et al. "Research Paper." Journal, 2023.</li>
+    </ul>
+</section>
+
+<section id="teaching">
+    <h2>Teaching</h2>
+
+    <ul>
+        <li>Introduction to Programming</li>
+        <li>Data Structures</li>
+        <li>Theory of Computing</li>
+        <li>Cryptography</li>
+        <li>Discrete Mathematics</li>
+    </ul>
+</section>
+
+<section id="awards">
+    <h2>Awards & Grants</h2>
+
+    <ul>
+        <li>NSERC Discovery Grant</li>
+        <li>Research Excellence Award</li>
+        <li>Teaching Innovation Award</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+        <strong>Email:</strong> your.email@university.edu
+    </p>
+
+    <p>
+        <strong>Office:</strong> Department of Mathematics, University Name
+    </p>
+
+    <p>
+        <strong>Google Scholar:</strong>
+        <a href="#">Scholar Profile</a>
+    </p>
+
+    <p>
+        <strong>ORCID:</strong>
+        <a href="#">0000-0000-0000-0000</a>
+    </p>
+</section>
+
+</div>
+
+<footer>
+    &copy; 2026 Dr. Jane Smith. All Rights Reserved.
+</footer>
+
 </body>
 </html>
-
